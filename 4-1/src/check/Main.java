@@ -14,10 +14,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-//		課題②
-//		【Main.java】にてfirstNameとlastNameを引数で受け取って、
-//		連結して表示させるメソッド「printName」を作成しなさい。
-//		作成した関数のアクセス修飾子は「private」とする。
 		Main main = new Main();
 		main.printName(main.firstName, main.lastName);
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
@@ -27,6 +23,10 @@ public class Main {
 		
 	}
 
+//	課題②
+//	【Main.java】にてfirstNameとlastNameを引数で受け取って、
+//	連結して表示させるメソッド「printName」を作成しなさい。
+//	作成した関数のアクセス修飾子は「private」とする。
 	private void printName(String firstName, String lastName) {
 		
 		System.out.println(firstName + lastName);
