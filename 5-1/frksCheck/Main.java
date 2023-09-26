@@ -17,7 +17,7 @@ public class Main {
 //	       例List<Object> array = new ArrayList<>();
 //		また、arrayには[hoge, pos, foo]の文字列３要素を入れてください。
 //	    <以下記述>
-			List<String> array = new ArrayList();
+			List<String> array = new ArrayList<String>();
 			array.add("hoge");
 			array.add("pos");
 			array.add("foo");
